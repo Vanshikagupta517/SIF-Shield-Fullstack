@@ -1,0 +1,10 @@
+{
+  "description": "Streamline project collaboration and task management for teams, enhancing productivity and communication through organized workflows and real-time updates.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

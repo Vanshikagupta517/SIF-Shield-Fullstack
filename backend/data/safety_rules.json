@@ -1,0 +1,58 @@
+{
+  "Confined Space": {
+    "keywords": ["confined space", "confined area", "vessel", "tank entry", "manhole"],
+    "required_controls": ["Atmospheric Testing", "Permit Verification", "Continuous Monitoring"],
+    "potential_consequences": ["Toxic Exposure", "Oxygen Deficiency", "Asphyxiation", "Fatality"],
+    "recommended_actions": ["Stop unsafe entry", "Verify atmospheric conditions", "Confirm permit requirements", "Verify required controls before resuming work"],
+    "safety_rule": "Confined Space"
+  },
+  "Working at Height": {
+    "keywords": ["working at height", "elevated platform", "scaffold", "fall protection", "safety harness", "anchor point", "edge protection"],
+    "required_controls": ["Fall Protection", "Anchor Verification", "Edge Protection"],
+    "potential_consequences": ["Fall from Height", "Serious Injury", "Fatality"],
+    "recommended_actions": ["Stop work at height", "Verify fall protection and anchor points", "Ensure harness connection and inspection", "Verify edge protection before resuming"],
+    "safety_rule": "Working at Height"
+  },
+  "Electrical": {
+    "keywords": ["electrical", "electric", "energized", "live equipment", "lockout", "tagout", "loto", "isolation", "zero energy"],
+    "required_controls": ["Isolation / LOTO Verification", "Zero Energy Verification"],
+    "potential_consequences": ["Electric Shock", "Arc Flash", "Unexpected Energization", "Fatality"],
+    "recommended_actions": ["Stop work", "Isolate all relevant energy sources", "Verify zero energy state", "Complete and verify LOTO before resuming"],
+    "safety_rule": "Electrical / Energy Isolation"
+  },
+  "Fire/Explosion": {
+    "keywords": ["fire", "explosion", "flammable", "ignition", "hot work", "spark"],
+    "required_controls": ["Hot Work Permit", "Gas Testing", "Ignition Source Control"],
+    "potential_consequences": ["Fire", "Explosion", "Burn Injury", "Fatality"],
+    "recommended_actions": ["Stop unsafe activity", "Verify gas testing", "Control ignition sources", "Confirm permit and fire controls"],
+    "safety_rule": "Fire / Explosion"
+  },
+  "Vehicle Safety": {
+    "keywords": ["vehicle", "driving", "reversing", "truck", "car", "seat belt"],
+    "required_controls": ["Seat Belt", "Journey / Vehicle Controls", "Safe Reversing"],
+    "potential_consequences": ["Vehicle Collision", "Serious Injury", "Fatality"],
+    "recommended_actions": ["Stop unsafe driving activity", "Verify vehicle and journey controls", "Use required restraint and reversing controls"],
+    "safety_rule": "Vehicle Safety"
+  },
+  "Line of Fire": {
+    "keywords": ["line of fire", "suspended load", "struck by", "caught between", "pinch point", "lifting"],
+    "required_controls": ["Exclusion Zone", "Load Control", "Positioning Away from Line of Fire"],
+    "potential_consequences": ["Struck-by Injury", "Crush Injury", "Fatality"],
+    "recommended_actions": ["Stop the activity", "Establish exclusion zone", "Control the load", "Move personnel out of the line of fire"],
+    "safety_rule": "Line of Fire / Lifting"
+  },
+  "Pressure": {
+    "keywords": ["pressure", "pressurized", "pressure vessel", "release", "bleed", "depressurize"],
+    "required_controls": ["Pressure Isolation", "Depressurization Verification"],
+    "potential_consequences": ["Stored Energy Release", "Serious Injury", "Fatality"],
+    "recommended_actions": ["Stop work", "Isolate the pressure source", "Verify depressurization before access"],
+    "safety_rule": "Pressure / Stored Energy"
+  },
+  "Lifting": {
+    "keywords": ["crane", "lifting", "lift", "rigging", "sling", "suspended load"],
+    "required_controls": ["Lift Plan", "Rigging Verification", "Exclusion Zone"],
+    "potential_consequences": ["Dropped Load", "Struck-by Injury", "Fatality"],
+    "recommended_actions": ["Stop the lift", "Verify lift plan and rigging", "Establish exclusion zone", "Resume only after controls are verified"],
+    "safety_rule": "Lifting"
+  }
+}
